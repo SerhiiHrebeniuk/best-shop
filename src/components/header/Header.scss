@@ -1,0 +1,115 @@
+.header {
+    width: 100%;
+
+    &__navbar {
+        height: 70px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0px;
+        left: 0px;
+        box-shadow: #00000029 0 3px 6px;
+        position: sticky;
+    }
+
+    &__logo {
+        padding-left: 136px;
+        font-weight: 500;
+        color: #08a6e4;
+        font-size: 32px;
+        text-align: left;
+    }
+
+    &__list {
+        width: 500px;
+        margin-right: 100px;
+
+        ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            list-style: none;
+            height: 70px;
+
+            li {
+                font-weight: 700;
+                text-transform: uppercase;
+                font-size: 11px;
+                width: 70px;
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                a {
+                    text-decoration: none;
+                    color: #a5a5a5;
+                }
+
+                a:link {
+                    text-decoration: none;
+                }
+
+                a:visited {
+                    text-decoration: none;
+                }
+
+                a:hover {
+                    color: black;
+                }
+            }
+
+            li:hover {
+                border-bottom: 2px solid #08a6e4;
+            }
+        }
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+
+        h1 {
+            font-size: 42px;
+            color: black;
+            margin-top: 147px;
+        }
+
+        p {
+            font-size: 15px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+
+        button {
+            background: #08a6e4 0% 0% no-repeat padding-box;
+            box-shadow: #07ace629 5px 10px 14px;
+            border-radius: 40px;
+            border-style: none;
+            color: white;
+            padding: 20px 40px 20px 40px;
+            width: 360px;
+            font-size: 22px;
+            cursor: pointer;
+            transition: ease-in-out 0.3s;
+        }
+
+        button:hover {
+            background: #083be4;
+        }
+
+        &--image {
+            img {
+                width: 100%;
+                height: 100%;
+                z-index: 2;
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}

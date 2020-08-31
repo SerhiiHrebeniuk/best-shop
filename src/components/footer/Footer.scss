@@ -1,0 +1,52 @@
+.footer {
+    background: #e0dede 0% 0% no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    &__left {
+        height: auto;
+        width: 400px;
+        padding: 0 0 0 100px;
+
+        &--logo {
+            letter-spacing: 0px;
+            color: #08A6E4;
+            opacity: 1;
+            font-size: 26px;
+            padding: 0 0 10px 0;
+        }
+
+        &--text {
+            letter-spacing: 0px;
+            color: #242424;
+            opacity: 1;
+            font-size: 11px;
+        }
+    }
+
+    &__right {
+        height: auto;
+        width: 100px;
+        display: flex;
+        padding: 0 150px 0 0;
+
+        &--twit {
+            opacity: 1;
+            padding: 0 20px 0 0;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: transparent;
+        }
+
+        &--face {
+            opacity: 1;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-color: transparent;
+        }
+    }
+}

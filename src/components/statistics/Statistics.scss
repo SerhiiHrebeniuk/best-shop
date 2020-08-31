@@ -1,0 +1,88 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    h1 {
+        font-size: 30px;
+        color: black;
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 160px;
+        padding: 120px 160px;
+
+        &--daily {
+            display: block;
+            width: 63px;
+            height: 63px;
+            border-radius: 50px;
+            position: relative;
+            background-color: red;
+
+            &::after {
+                content: url("../img/Person.svg");
+                display: block;
+                padding: 0px 33px;
+            }
+        }
+
+        &--products {
+            display: block;
+            width: 63px;
+            height: 63px;
+            border-radius: 50px;
+            position: relative;
+            background-color: #08a6e4;
+
+            &::after {
+                content: url("../img/Eye.svg");
+                display: block;
+                padding: 0px 20px;
+                padding-top: 12px;
+            }
+        }
+
+        &--post {
+            display: block;
+            width: 63px;
+            height: 63px;
+            border-radius: 50px;
+            position: relative;
+            background-color: #66CCB6;
+
+            &::after {
+                content: url("../img/Catalog.svg");
+                display: block;
+                padding: 0px 33px;
+                padding-top: 1px;
+            }
+            
+        }
+
+        &--count {
+            padding: 15px;
+            font-size: 25px;
+            font-weight: 800;
+            padding-left: 30px;
+            letter-spacing: 6px;
+        }
+
+        &--text {
+            text-align: center;
+            color: #A5A5A5;
+        }
+
+    }
+}
