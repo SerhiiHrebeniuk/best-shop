@@ -9,6 +9,12 @@ const Header = () => {
         <div className="header">
             <div className="header__navbar">
                 <div className="header__logo">Best Shop</div>
+                <div className="header__hamburder" id="menu">
+                    <div className="header__hamburder--line">WHY US</div>
+                    <div className="header__hamburder--line">BENEFITS</div>
+                    <div className="header__hamburder--line">PRICES</div>
+                    <div className="header__hamburder--line">CONTACT</div>
+                </div>    
                 <div className="header__list">
                     <ul>
                         <li><a href="#WHY US">WHY US</a></li>
